@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".ChooseActivity"
+    android:columnCount="2">
+    <ImageButton
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/tour_img"
+        android:contentDescription="@string/tour_btn" />
+    <ImageButton
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/child_img"
+        android:contentDescription="@string/child_btn"/>
+    <ImageButton
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/stroll_img"
+        android:contentDescription="@string/quick_btn"/>
+    <ImageButton
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/citizen_img"
+        android:contentDescription="@string/citizen_btn"/>
+</GridLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DiscoverFredericton</string>
+    <string name="tour_btn">Take a tour</string>
+    <string name="child_btn">Just for kids</string>
+    <string name="quick_btn">Light stroll</string>
+    <string name="citizen_btn">Moving in?</string>
+</resources>
