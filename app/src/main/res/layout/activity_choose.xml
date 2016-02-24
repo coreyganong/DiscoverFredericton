@@ -1,40 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout
     android:layout_height="match_parent"
-    android:paddingBottom="0dp"
-    android:paddingLeft="0dp"
-    android:paddingRight="0dp"
-    android:paddingTop="0dp"
-    tools:context=".ChooseActivity"
-    android:columnCount="2">
-    <ImageButton
-        android:layout_height="0dp"
-        android:layout_width="0dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:background="@drawable/tour_img"
-        android:contentDescription="@string/tour_btn" />
-    <ImageButton
-        android:layout_height="0dp"
-        android:layout_width="0dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:background="@drawable/child_img"
-        android:contentDescription="@string/child_btn"/>
-    <ImageButton
-        android:layout_height="0dp"
-        android:layout_width="0dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:background="@drawable/stroll_img"
-        android:contentDescription="@string/quick_btn"/>
-    <ImageButton
-        android:layout_height="0dp"
-        android:layout_width="0dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:background="@drawable/citizen_img"
-        android:contentDescription="@string/citizen_btn"/>
-</GridLayout>
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        tools:context="com.coreyganong.discoverfredericton.ChooseActivity"
+        android:columnCount="2"
+        android:orientation="horizontal">
+        <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/tour_btn"
+            android:id="@+id/tour_btn"
+            android:background="@drawable/tour_img"
+            />
+
+        <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/child_btn"
+            android:id="@+id/child_btn"
+            android:background="@drawable/child_img"/>
+        <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/quick_btn"
+            android:id="@+id/stroll_btn"
+            android:background="@drawable/stroll_img"/>
+        <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/citizen_btn"
+            android:id="@+id/citizen_btn"
+            android:background="@drawable/citizen_img"/>
+    </GridLayout>
+</LinearLayout>

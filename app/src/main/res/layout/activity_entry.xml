@@ -8,7 +8,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.coreyganong.discoverfredericton.EntryActivity"
-    android:background="@drawable/entry_bg"
     android:backgroundTint="#191919"
     android:backgroundTintMode="screen"
     android:baselineAligned="false">

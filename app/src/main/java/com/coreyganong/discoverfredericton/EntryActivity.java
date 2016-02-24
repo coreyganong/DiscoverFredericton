@@ -27,6 +27,8 @@ public class EntryActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(EntryActivity.this,ChooseActivity.class);
                 startActivity(intent);
+                System.gc();
+                finish();
             }
         });
     }
