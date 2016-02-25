@@ -8,17 +8,19 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toolbar;
 
 public class EntryActivity extends AppCompatActivity {
-
+    private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
-
+        toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        setActionBar(toolbar);
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        ArrayAdapter<CharSequence> arrayAdapter = ArrayAdapter.createFromResource(this,R.array.languages,android.R.layout.simple_spinner_item);
-        arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<CharSequence> arrayAdapter = ArrayAdapter.createFromResource(this,R.array.languages,R.layout.spinner_layout);
+        arrayAdapter.setDropDownViewResource(R.layout.spinner_layout);
         spinner.setAdapter(arrayAdapter);
 
         Button button = (Button) findViewById(R.id.start_button);
@@ -27,7 +29,6 @@ public class EntryActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(EntryActivity.this,ChooseActivity.class);
                 startActivity(intent);
-                System.gc();
                 finish();
             }
         });

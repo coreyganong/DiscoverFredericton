@@ -2,48 +2,69 @@
 <LinearLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        tools:context="com.coreyganong.discoverfredericton.ChooseActivity"
-        android:columnCount="2"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
         <Button
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:text="@string/tour_btn"
             android:id="@+id/tour_btn"
             android:background="@drawable/tour_img"
+            android:textColor="#ffffff"
+            android:textSize="60dp"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
             />
-
         <Button
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:text="@string/child_btn"
             android:id="@+id/child_btn"
-            android:background="@drawable/child_img"/>
+            android:background="@drawable/child_img"
+            android:textColor="#9e9e9e"
+            android:textSize="60dp"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:backgroundTint="#666666"
+            android:backgroundTintMode="multiply"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
         <Button
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:text="@string/quick_btn"
             android:id="@+id/stroll_btn"
-            android:background="@drawable/stroll_img"/>
+            android:background="@drawable/stroll_img"
+            android:textColor="#9e9e9e"
+            android:textSize="60dp"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:backgroundTint="#666666"
+            android:backgroundTintMode="multiply"/>
         <Button
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:text="@string/citizen_btn"
             android:id="@+id/citizen_btn"
-            android:background="@drawable/citizen_img"/>
-    </GridLayout>
+            android:background="@drawable/citizen_img"
+            android:textColor="#9e9e9e"
+            android:textSize="60dp"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:backgroundTint="#666666"
+            android:backgroundTintMode="multiply"/>
+    </LinearLayout>
 </LinearLayout>
