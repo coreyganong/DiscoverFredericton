@@ -21,7 +21,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class MainActivity extends AppCompatActivity implements InfoFragment.OnFragmentInteractionListener,MapFragment.OnFragmentInteractionListener,PlaceFragment.OnFragmentInteractionListener{
+public class MainActivity extends AppCompatActivity
+        implements  InfoFragment.OnFragmentInteractionListener,
+                    MapFragment.OnFragmentInteractionListener,
+                    PlaceFragment.OnFragmentInteractionListener,
+                    PassportFragment.OnFragmentInteractionListener
+{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +61,15 @@ public class MainActivity extends AppCompatActivity implements InfoFragment.OnFr
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 c.startActivity(intent);
                 finish();
+            }
+        });
+
+        Button passportButton = (Button) findViewById(R.id.passport_button);
+        passportButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PassportFragment fragment = new PassportFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.main_container, fragment).commit();
             }
         });
 

@@ -4,11 +4,18 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -123,7 +130,26 @@ public class PlaceFragment extends Fragment {
                 break;
 
         }
+        Button button = (Button) rootView.findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fragmentManager2 = getFragmentManager();
+                FragmentTransaction fragmentTransaction2 = fragmentManager2.beginTransaction();
+                MapFragment fragment2 = new MapFragment();
+                fragmentTransaction2.addToBackStack("xyz");
+                fragmentTransaction2.hide(PlaceFragment.this);
+                fragmentTransaction2.replace(R.id.main_container, fragment2);
+                fragmentTransaction2.commit();
+                Context context = v.getContext();
+                CharSequence text = "You've unlocked a stamp!";
+                int duration = Toast.LENGTH_LONG;
 
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.setGravity(Gravity.CENTER,0,0);
+                toast.show();
+            }
+        });
 
         return rootView;
     }

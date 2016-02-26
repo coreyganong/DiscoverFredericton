@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_passport"
+    android:orientation="vertical"
+    tools:context="com.coreyganong.discoverfredericton.PassportFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Passport"
+        android:textSize="60sp"
+        android:textColor="#000000"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+    <!-- TODO: Update blank fragment layout -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/city_hall_stamps"/>
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/officers_square_stamp"
+            android:tint="#dddddd"
+            android:tintMode="screen" />
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/playhouse_stamp"
+            android:tint="#dddddd"
+            android:tintMode="screen"/>
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/gallery_stamp"
+            android:tint="#dddddd"
+            android:tintMode="screen"/>
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/legislature_stamp"
+            android:tint="#dddddd"
+            android:tintMode="screen"/>
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/cathedral_stamp"
+            android:tint="#dddddd"
+            android:tintMode="screen"/>
+    </GridLayout>
+
+</LinearLayout>
