@@ -27,24 +27,23 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@drawable/menu_button"
-            android:drawableTop="@android:drawable/ic_menu_info_details"
-            android:drawableTint="#000000"
+            android:drawableTop="@drawable/info_icon"
             android:paddingTop="40dp"
             android:text="Info"
             android:textSize="30dp"
-            android:textColor="#ffffff"/>
+            android:textColor="@color/colorPrimaryDark"/>
         <Button
             android:id="@+id/map_button"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@drawable/menu_button"
-            android:drawableTop="@android:drawable/ic_dialog_map"
+            android:drawableTop="@drawable/map_icon"
             android:drawableTint="#000000"
             android:paddingTop="40dp"
             android:text="Map"
             android:textSize="30dp"
-            android:textColor="#ffffff"
+            android:textColor="@color/colorPrimaryDark"
             />
         <Button
             android:id="@+id/passport_button"
@@ -52,24 +51,24 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@drawable/menu_button"
-            android:drawableTop="@android:drawable/ic_menu_mapmode"
+            android:drawableTop="@drawable/passport_icon"
             android:drawableTint="#000000"
             android:paddingTop="40dp"
             android:text="My Passport"
             android:textSize="30dp"
-            android:textColor="#ffffff"/>
+            android:textColor="@color/colorPrimaryDark"/>
         <Button
             android:id="@+id/end_button"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@drawable/menu_button"
-            android:drawableTop="@android:drawable/ic_menu_revert"
+            android:drawableTop="@drawable/end_icon"
             android:drawableTint="#000000"
             android:paddingTop="40dp"
             android:text="End Tour"
             android:textSize="30dp"
-            android:textColor="#ffffff"/>
+            android:textColor="@color/colorPrimaryDark"/>
     </LinearLayout>
 
     <LinearLayout
@@ -104,40 +103,64 @@
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/entry_bg"
+                        android:background="@drawable/button1"
+                        android:id="@+id/button1"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/child_img"
+                        android:background="@drawable/button2"
+                        android:id="@+id/button2"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/citizen_img"
+                        android:background="@drawable/button3"
+                        android:id="@+id/button3"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/stroll_img"
+                        android:background="@drawable/button4"
+                        android:id="@+id/button4"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/tour_img"
+                        android:background="@drawable/button5"
+                        android:id="@+id/button5"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
+                        android:background="@drawable/button6"
+                        android:id="@+id/button6"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
+                        android:background="@drawable/button7"
+                        android:id="@+id/button7"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
+                        android:background="@drawable/button8"
+                        android:id="@+id/button8"
                         />
+                    <ImageButton
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button9"
+                        android:id="@+id/button9"
+                        />
+                    <ImageButton
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button10"
+                        android:id="@+id/button10"
+                        />
+
                 </LinearLayout>
             </HorizontalScrollView>
         </LinearLayout>

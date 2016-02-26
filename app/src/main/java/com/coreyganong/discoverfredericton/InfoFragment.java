@@ -46,9 +46,6 @@ public class InfoFragment extends Fragment {
         // Inflate the layout for this fragment
 
         View rootView =  inflater.inflate(R.layout.fragment_info, container, false);
-
-        ((TextView) rootView.findViewById(R.id.info_text)).setText(R.string.info_text);
-
         return rootView;
     }
 

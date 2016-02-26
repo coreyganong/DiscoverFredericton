@@ -1,14 +1,37 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.coreyganong.discoverfredericton.InfoFragment">
+    tools:context="com.coreyganong.discoverfredericton.InfoFragment"
+    android:background="@drawable/bg_info"
+    android:backgroundTint="#aaaaaa"
+    android:backgroundTintMode="screen"
+    android:paddingTop="60dp"
+    android:paddingBottom="100dp"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Route"
+        android:textSize="60sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="60dp"
+        android:fontFamily="sans-serif-light"
+        />
     <TextView
         android:id="@+id/info_text"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_text"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
          />
 
-</FrameLayout>
+</LinearLayout>

@@ -6,8 +6,78 @@
     <string name="citizen_btn">Moving in?</string>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
-    <string name="info_text">This is a test</string>
+    <string name="info_text">\t\t\tThere are many ways to discover, explore, interpret and experience the heritage of the Fredericton area.\n
+	\t\t\tOne of the best ways of doing this is to see first hand the buildings, streets, neighbourhoods and landscapes that over time have interwoven to become the rich tapestry of our city and the capital region.
+	This tour will provide a rich experience that will walk you through the heart of the downtown area, highlighting the most popular buildings and attractions you don’t want to miss!</string>
+    <string name="title1">
+        City Hall
+    </string>
+    <string name ="text1">
+        Fredericton’s City Hall is the oldest City Hall still in use in the Maritime Provinces. The original City Hall, which was erected in 1876, once included the city office, council chamber, magistrate’s office, jail, farmers’ market and opera house. The tower clock, its eight-foot dials, copper hands and reliable chimes have been keeping downtown businesses and customers on time ever since.
+        \n\nThe fountain in front of City Hall was constructed in 1885. With the growing city, City Hall became crowded and plans were made for an addition. Architects carefully designed the addition to make it as compatible as possible with the original City Hall. Construction began on September 1975 and it was completed in 1977.
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    </string>
+    <string name="title2">
+        Justice Building
+    </string>
+    <string name ="text2">
+        As you walk down Queen St., from City Hall, the Justice Building is on your left at the corner of York St. Although there are no tours of the Justice Building itself, the annex to the building contains the ‘School Days’ Museum.
+        \n\nIn 1827, a 34 x 37 foot Military Hospital with four six-bed wards was constructed in stone on the site now partly occupied by the Justice Building. In 1875, the hospital and accessory building were removed to permit construction of the Provincial Normal School. That building was destroyed by fire in 1929, but was later rebuilt on the same site. The building served as part of Fredericton High School from 1965 to 1970. It was remodeled to house law courts and reopen as the Justice Building in 1975.
+    </string>
+    <string name="title3">
+        Soldiers\' Barracks
+    </string>
+    <string name ="text3">
+        Further down Queen St., the old Soldiers’ Barracks sits almost on the  corner of Carleton St., with its back to Queen. St. The Soldiers’ Barracks is an 1827, three and a half storey stone structure built by the British Army to accommodate more than 200 British soldiers. Life was crowded - 19 soldiers to a room. They slept on iron beds, while wooden pegs and shelves held their belongings. A table and wooden benches were the only other furniture.
+        \n\nThe 22nd Cheshire Regiment was stationed here from 1866 to 1869 and all ranks said they looked back on Fredericton as an ideal Station. Today, the lower level of the Barracks houses several craft shops, where artisans create and sell their wares.
+    </string>
+    <string name="title4">
+        Officers\' Square
+    </string>
+    <string name ="text4">
+        Officers’ Square was a centre of military activity when Fredericton was garrisoned by the British Army from 1785 to 1869, and by the Canadian Army from 1883 to 1914. During July and August, it is the site for outdoor summer concerts, the Changing of the Guard ceremony, and a variety of festivals and events throughout the year, including The Harvest Jazz and Blues festival. During the winter months, many Frostival events are held in this area, such as curling, winter concerts and ice skating.
+        \n\nA bronze statue of Lord Beaverbrook, New Brunswick’s great benefactor, is at the center of Officers’ Square. It was unveiled on August 28, 1957 and was erected through the generous contributions of the children of the province.
+    </string>
+    <string name="title5">
+        The Playhouse
+    </string>
+    <string name ="text5">
+        Fredericton’s premiere performance venue. The 709-soft-seat theatre is the place to catch live performances by regional, national, and international musicians, dance companies and theatre companies. The Playhouse was given to the people of New Brunswick in 1964 by publishing baron Lord Beaverbrook. This award-winning performance venue is a favorite stop for national touring artists and also provides a stage for local professional and amateur productions.
+    </string>
+
+    <string name="title6">
+        Beaverbrook Art Gallery
+    </string>
+    <string name ="text6">
+        The Beaverbrook Art Gallery was gifted to the people of New Brunswick by Lord Beaverbrook and officially opened to the public in September 1959. As the Provincial Art Gallery of New Brunswick, the Beaverbrook Art Gallery presents a rotating schedule of contemporary and historical exhibitions that give focus to the art and visual culture of New Brunswick and the Atlantic region.
+        \n\nThe Gallery presents a wide spectrum of ideas, themes, and media within the visual arts, presenting the work of both established and emerging artists, and provides a forum for the art of the province’s First Nations and Acadian communities. The Gallery also hosts exhibitions on loan from other institutions, as well as offers educational art programs for both adults and children.
+        \n\nThe Gallery is currently under major construction, to be reopened in May 2016, with many celebrations and ceremonies to follow!
+    </string>
+    <string name="title7">
+        Legislative Building
+    </string>
+    <string name ="text7">
+        Serving as the seat of government in New Brunswick since 1882, the present day building replaced the old Province Hall, which was destroyed by a fire in 1880. The main entrance opens into a vestibule and hallway hung with portraits of former Lieutenant Governors. Beyond is a large self-supporting spiral staircase. The Chamber reflects the taste of the late Victorians.
+        \n\nNext to the Legislature is a modest stone building, the ground floor of which was built in 1816 as an office for Provincial Secretary. The upper floors were added in 1869. It is the oldest surviving public building in Fredericton and houses offices relating to the Legislative Assembly.
+</string>
+    <string name="title8">
+        Christ Church Cathedral
+    </string>
+    <string name ="text8">
+        Christ Church Cathedral, considered to be the first Cathedral in North America (1845-1853) to adhere to the exact standards of the mid-19th century Gothic Revival in church architecture. Modeled after the medieval parish church of St. Mary’s at Snettisham, England, build according to the express wishes of Bishop John Medley, and designed by Frank Wills and William Butterfield, the Cathedral was declared a National Historic Site in 1983.
+        \n\nThe cathedral cornerstone was laid in 1845, constructed that year by Bishop John Medley, the first Bishop of Fredericton under whose auspices it was built. His exquisite cenotaph is at the east end of the cathedral, surrounded by the many fine examples of woodworking and stained glass art that add depth and character to this majestic structure.
+        \n\nAlthough not on public display, the Cathedral also contains the letters patent of Queen Victoria, appointing the Rev. John Medley as Bishop of Fredericton, and constituting the Town of Fredericton to be a city. It also possesses a Royal Bible, which was presented by Albert, Prince of Wales.</string>
+    <string name="title9">
+        Old Public Burial Ground
+    </string>
+    <string name ="text9">
+        From St. Dunstan’s, cross Regent St. at the corner of Brunswick St. and follow until you reach the burial ground entrance. Behold! You are standing in the centre of the downtown Fredericton area. The Old Town Platt is one of the most historically important cemeteries in New Brunswick. The Old Public Burial Ground is the final resting place for many of the Loyalist families who founded New Brunswick, as well as its first clergy, judges, and government officials. It has graves dating back to 1787. They lie with the families of the English governors, members of the British regiments stationed in Fredericton and early settlers from the British Isles from whom many Frederictonians are descended.
+    </string>
+    <string name="title10">
+        Wilmot United Church
+    </string>
+    <string name ="text10">
+        A group of Scottish soldiers, all Loyalists, formed the Fredericton Methodist Society in 1791. The congregation outgrew one chapel, lost another by fire, and built the church that stands today in 1852. It is one of the oldest buildings in regular use in the city, and the last of the great wooden churches, which dominated the skyline of 19th century Fredericton. From 1852 to 1974, a unique wooden hand, carved by Edward Charters, topped the tallest spire in Fredericton. The hand, designated in 2007 as a Fredericton Heritage Icon, is displayed in the sanctuary.
+        \n\nAmong the church’s stained glass windows is one by the William Morris Studio installed in 1913, and in recent years re-identified by researchers and deemed to be a valuable find in Canada. The church’s decor was planned in 1948 by famous Canadian artist, the late Alex Colville.
+    </string>
 </resources>
