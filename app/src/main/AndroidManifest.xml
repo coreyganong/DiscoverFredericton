@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.coreyganong.discoverfredericton">
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" >
+    </uses-feature>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="true"
@@ -23,7 +32,11 @@
             android:screenOrientation="landscape"/>
         <activity android:name=".MainActivity"
             android:screenOrientation="landscape"/>
-
+        <activity android:name=".MainActivity2"
+            android:screenOrientation="landscape"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCnxmo1YpSH6idFr7JiFhhALK4hBPiYAk0"/>
     </application>
 
 </manifest>

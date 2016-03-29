@@ -2,13 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.coreyganong.discoverfredericton.MapFragment"
+    tools:context=".FakeMapFragment"
     android:background="@color/colorPrimaryDark">
 
     <!-- TODO: Update blank fragment layout -->
-    <ImageView
+
+    <fragment
+        android:id="@+id/map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/map_screen"/>
+        class="com.google.android.gms.maps.SupportMapFragment" />
 
 </FrameLayout>

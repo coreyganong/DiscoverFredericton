@@ -26,49 +26,50 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@drawable/menu_button"
+            android:background="@color/colorPrimary"
+            android:drawableTint="#ffffff"
             android:drawableTop="@drawable/info_icon"
             android:paddingTop="40dp"
             android:text="Info"
             android:textSize="30dp"
-            android:textColor="@color/colorPrimaryDark"/>
+            android:textColor="#ffffff"/>
         <Button
             android:id="@+id/map_button"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@drawable/menu_button"
+            android:background="@color/colorKids3"
             android:drawableTop="@drawable/map_icon"
-            android:drawableTint="#000000"
+            android:drawableTint="#ffffff"
             android:paddingTop="40dp"
             android:text="Map"
             android:textSize="30dp"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
             />
         <Button
             android:id="@+id/passport_button"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@drawable/menu_button"
+            android:background="@color/colorKids4"
             android:drawableTop="@drawable/passport_icon"
-            android:drawableTint="#000000"
+            android:drawableTint="#ffffff"
             android:paddingTop="40dp"
             android:text="My Passport"
             android:textSize="30dp"
-            android:textColor="@color/colorPrimaryDark"/>
+            android:textColor="#ffffff"/>
         <Button
             android:id="@+id/end_button"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="@drawable/menu_button"
+            android:background="@color/colorKids5"
             android:drawableTop="@drawable/end_icon"
-            android:drawableTint="#000000"
+            android:drawableTint="#ffffff"
             android:paddingTop="40dp"
             android:text="End Tour"
             android:textSize="30dp"
-            android:textColor="@color/colorKids5"/>
+            android:textColor="#ffffff"/>
     </LinearLayout>
 
     <LinearLayout
@@ -109,56 +110,26 @@
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/button2"
+                        android:background="@drawable/kids2"
                         android:id="@+id/button2"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/button3"
+                        android:background="@drawable/kids3"
                         android:id="@+id/button3"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/button4"
+                        android:background="@drawable/kids4"
                         android:id="@+id/button4"
                         />
                     <ImageButton
                         android:layout_width="200dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/button5"
+                        android:background="@drawable/kids5"
                         android:id="@+id/button5"
-                        />
-                    <ImageButton
-                        android:layout_width="200dp"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/button6"
-                        android:id="@+id/button6"
-                        />
-                    <ImageButton
-                        android:layout_width="200dp"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/button7"
-                        android:id="@+id/button7"
-                        />
-                    <ImageButton
-                        android:layout_width="200dp"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/button8"
-                        android:id="@+id/button8"
-                        />
-                    <ImageButton
-                        android:layout_width="200dp"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/button9"
-                        android:id="@+id/button9"
-                        />
-                    <ImageButton
-                        android:layout_width="200dp"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/button10"
-                        android:id="@+id/button10"
                         />
 
                 </LinearLayout>
