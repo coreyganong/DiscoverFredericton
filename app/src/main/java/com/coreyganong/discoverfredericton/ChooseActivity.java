@@ -21,7 +21,17 @@ public class ChooseActivity extends AppCompatActivity {
         tourButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ChooseActivity.this,MainActivity.class);
+                Intent intent = new Intent(ChooseActivity.this, MainActivity.class);
+                startActivity(intent);
+                System.gc();
+                finish();
+            }
+        });
+        Button kidsButton = (Button) findViewById(R.id.child_btn);
+        kidsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChooseActivity.this,MainActivity2.class);
                 startActivity(intent);
                 System.gc();
                 finish();

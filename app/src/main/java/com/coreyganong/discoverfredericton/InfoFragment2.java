@@ -7,31 +7,28 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link InfoFragment.OnFragmentInteractionListener} interface
+ * {@link InfoFragment2.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link InfoFragment#newInstance} factory method to
+ * Use the {@link InfoFragment2#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class InfoFragment extends Fragment {
+public class InfoFragment2 extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public InfoFragment() {
+    public InfoFragment2() {
         super();
         // Required empty public constructor
     }
 
 
-    public static InfoFragment newInstance() {
-        InfoFragment fragment = new InfoFragment();
+    public static InfoFragment2 newInstance() {
+        InfoFragment2 fragment = new InfoFragment2();
         return fragment;
     }
 
@@ -45,8 +42,7 @@ public class InfoFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View rootView =  inflater.inflate(R.layout.fragment_info, container, false);
-
+        View rootView =  inflater.inflate(R.layout.fragment_info2, container, false);
         return rootView;
     }
 
